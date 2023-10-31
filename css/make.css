@@ -1,0 +1,95 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+header .back{
+    position: fixed;
+    top:20px;
+    left: 10px;
+    background-image: linear-gradient(to right bottom,#0c0f14dc,#ca5fcecc );
+    color: aliceblue;
+    padding: 3px;
+    text-decoration:none;
+    border-radius: 0 0 20% 20%;
+
+}
+header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0  40% 40% ;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10rem;
+    background-image: linear-gradient(#0c0f14dc,#ca5fcecc );
+}
+body{
+    animation-name: back;
+    animation-duration:10s ;
+    animation-iteration-count: infinite;
+}
+.makeu{
+    display: flex;
+}
+.all{
+    margin: 100px;
+    justify-content: center;
+    display: flex;
+flex-direction: row; 
+flex-wrap: wrap;
+}
+.sec1 img{
+    margin-top: 20px
+    padding: 0;
+    border-radius: 50% ;
+}
+.makeu .sec1{
+    color:aliceblue;
+margin: 40px;
+margin-top: 0;
+text-align: center;
+background-image:linear-gradient(to right bottom,#0c0f14dc,#ca5fcecc  );
+border-radius: 0 0 20% 20%  ;
+
+
+}
+
+.sec11-text{
+ color: fcfcfc;
+   margin: 100px;
+
+}
+.makeu .sec1:hover{
+color: #fcfcfc;
+}
+.sec1 a{
+    text-decoration:none;
+color: #fcfcfc;
+}
+.buy{
+    position: relative;
+    color:aliceblue;
+    
+    left: 70px;
+    width: 80px ;
+background: #000000e8  ;
+border-radius: 15%;
+padding-bottom: 3px;
+margin-bottom: 20px;
+
+}
+.buy:hover{
+    background: #241729e8  ;
+
+}
+@keyframes back {
+    0%{background:#0c0f14dc ;}
+    70%{background:#ca5fcecc ;}
+    100%{background:#0c0f14dc ;}
+}
